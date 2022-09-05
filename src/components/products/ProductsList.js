@@ -1,7 +1,7 @@
 //for employees
 
 import { useEffect, useState } from "react"
-// import { useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import "./Products.css"
 
 export const ProductsList = () => {
@@ -9,7 +9,7 @@ export const ProductsList = () => {
     const [sorted, setSorted] = useState([])
     const [listexpensiveProducts, updateExpensiveProducts] = useState(false)
     const [filteredProducts, setFiltered] = useState([])
-    // const navigate = useNavigate()
+    const navigate = useNavigate()
 
 
     useEffect(
@@ -67,6 +67,7 @@ export const ProductsList = () => {
                     : "Top Priced"
             }
             </button>
+            <button onClick={() => navigate("/product/create")}>Create New Product</button>
        
     
         <article className="products">
@@ -84,3 +85,4 @@ export const ProductsList = () => {
         </article>
     </>
 }
+

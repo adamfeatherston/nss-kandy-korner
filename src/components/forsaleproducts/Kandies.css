@@ -1,0 +1,28 @@
+.products {
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    background-color: grey;
+    border: 1px dashed darkgreen;
+    padding: 1rem;
+    margin: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    color:rgb(231, 151, 21)
+}
+
+.search {
+    margin: 1rem;
+    padding: 0.5rem;
+    color:limegreen;
+    display: flex;
+    -ms-flex-align: stretch;
+}
+
+.text {
+    margin: 1rem;
+    padding: 10rem;
+    color: blue;
+}
