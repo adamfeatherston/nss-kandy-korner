@@ -1,5 +1,6 @@
-import { EmployeeViews } from "./EmployeeViews"
 import { CustomerViews } from "./CustomerViews"
+import { EmployeeViews } from "./EmployeeViews"
+
 
 export const ApplicationViews = () => {
 
